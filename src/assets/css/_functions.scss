@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+
+$rem-base: 16px !default;
+
+@function rem($px){
+  @return $px / 100 * 1rem;
+}
+
+
+// 小三角
+@mixin arrow ( $b: top, $s: 10px, $c: #000 ) {
+	border: $s solid transparent;
+	border-#{$b}: $s solid $c;
+	width: 0;
+	font-size: 0;
+}
+
+// 居中
+@mixin hlh ( $h ) {
+	height: $h;
+	line-height: $h;
+}
+
+// 设置字体
+@mixin position ($p: absolute, $t: 0, $l: 0) {
+	position: $p;
+	top: $t;
+	left: $l;
+}
+
+// left 和 top 值
+@mixin pos ( $t: 0, $l: 0 ) {
+	top: $t;
+	left: $l;
+}

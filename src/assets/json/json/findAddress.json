@@ -1,0 +1,59 @@
+{
+	"result": {
+		"addressList": [
+			{
+				"addressId": 2657,
+				"status": 1,
+				"type": 3,
+				"defaultFlag": 2,
+				"consignee": "001",
+				"mobile": "13111111111",
+				"province": 110000,
+				"city": 110100,
+				"district": 110105,
+				"addressName": "北京市",
+				"verification": 2,
+				"userId": 0,
+				"createdTime": "2016-07-25 13:16:30",
+				"updatedTime": "2016-09-09 15:45:52"
+			},
+			{
+				"addressId": 2658,
+				"status": 1,
+				"type": 3,
+				"defaultFlag": 2,
+				"consignee": "002",
+				"mobile": "14111111111",
+				"province": 110000,
+				"city": 110100,
+				"district": 110105,
+				"addressName": "上海市",
+				"verification": 2,
+				"userId": 0,
+				"createdTime": "2016-07-25 13:16:30",
+				"updatedTime": "2016-09-09 15:45:52"
+			},
+			{
+				"addressId": 2659,
+				"status": 1,
+				"type": 3,
+				"defaultFlag": 2,
+				"consignee": "003",
+				"mobile": "15111111111",
+				"province": 110000,
+				"city": 110100,
+				"district": 110105,
+				"addressName": "南京市",
+				"verification": 2,
+				"userId": 0,
+				"createdTime": "2016-07-25 13:16:30",
+				"updatedTime": "2016-09-09 15:45:52"
+			}
+		],
+		"map": {
+			"110105": "朝阳区",
+			"110100": "北京市",
+			"110000": "北京市"
+		}
+	}
+}

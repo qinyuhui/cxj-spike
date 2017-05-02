@@ -1,0 +1,75 @@
+@charset "UTF-8";
+body, ul, li, dl, dt, dd, ol, th, td, form, fieldset, input, button, textarea, div, p, h1, h2, h3, h4, h5, img, section, article, aside, header, footer, nav, dialog, figure, hgroup {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent; }
+
+html {
+  word-wrap: break-word;
+  -webkit-text-size-adjust: none !important;
+  font-size: 10px; }
+
+body {
+  font-family: Helvetica;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  color: #333;
+  position: relative; }
+
+h1, h2, h3, h4, h5 {
+  font-size: 100%;
+  font-weight: normal; }
+
+ol, ul, li {
+  list-style: none; }
+
+table {
+  font-size: inherit;
+  empty-cells: show;
+  border-spacing: 0;
+  border-collapse: collapse; }
+
+fieldset, img {
+  border: 0; }
+
+cite, em, s, i, b {
+  font-style: normal; }
+
+input, button, textarea, select {
+  font-size: 100%; }
+
+body, input, button, textarea, select, option {
+  font-size: normal; }
+
+a, input, textarea {
+  text-decoration: none;
+  outline: 0; }
+
+li, img, label, input {
+  vertical-align: middle; }
+
+var {
+  font-style: normal; }
+
+ins {
+  text-decoration: none; }
+
+body {
+  min-width: 320px;
+  max-width: 640px;
+  margin: 0 auto; }
+
+input[type='button'], input[type='submit'], input[type='reset'], input[type='text'], input[type='checkbox'] {
+  outline: none;
+  -webkit-appearance: none;
+  /* 去除ios美化input */ }
+
+body {
+  -webkit-text-size-adjust: 100% !important; }
+
+/*ios禁止调整字体大小*/
+
+/*# sourceMappingURL=reset.css.map */

@@ -1,0 +1,168 @@
+body {
+  background: #eee;
+  position: relative; }
+
+.clearfix:before,
+.clearfix:after {
+  display: block;
+  clear: both;
+  content: ''; }
+
+.hide {
+  display: none !important; }
+
+.bottomfix {
+  position: fixed;
+  z-index: 10;
+  bottom: 0;
+  width: 100%;
+  max-width: 375px; }
+
+.h_box {
+  display: -webkit-box;
+  display: flex;
+  width: 100%; }
+
+.flex_1 {
+  -webkit-box-flex: 1;
+  box-flex: 1; }
+
+.flex_pjustify {
+  justify-content: space-between; }
+
+.display_flex {
+  display: flex; }
+
+.pack_center {
+  justify-content: center; }
+
+.fl {
+  float: left; }
+
+.fr {
+  float: right; }
+
+.tl {
+  text-align: left; }
+
+.tc {
+  text-align: center; }
+
+.tr {
+  text-align: right; }
+
+.fb {
+  font-weight: bold; }
+
+.ml15 {
+  margin-left: 1.5rem; }
+
+.mt16 {
+  margin-top: 1.6rem; }
+
+.mt15 {
+  margin-top: 1.5rem; }
+
+.mb15 {
+  margin-bottom: 1.5rem; }
+
+.white {
+  color: #fff; }
+
+.black {
+  color: #030303; }
+
+.red {
+  color: #ff0000; }
+
+.gray {
+  color: #999; }
+
+.orange {
+  color: #ff6600; }
+
+.blue {
+  color: #03a9f4; }
+
+.icon-bg-orange {
+  display: inline-block;
+  background: #ff832c;
+  line-height: 1.8rem;
+  height: 1.8rem;
+  font-size: 1.2rem;
+  color: #fff;
+  padding: 0 0.4rem; }
+
+.pr {
+  position: relative; }
+
+.pa {
+  position: absolute; }
+
+.position-ab {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%; }
+
+.circle {
+  display: inline-block;
+  width: 3.2rem;
+  height: 3.2rem;
+  border-radius: 3.2rem; }
+
+.circlebg-1 {
+  background: #ff832c; }
+
+.circlebg-2 {
+  background: #7387f4; }
+
+.circlebg-3 {
+  background: #00babd; }
+
+.circlebg-4 {
+  background: #ff6600; }
+
+.circlebg-5 {
+  background: #fec200; }
+
+.text-overflow {
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis; }
+
+.loadImg {
+  top: 40%;
+  left: 0;
+  z-index: 999;
+  width: 100%;
+  text-align: center;
+  position: fixed; }
+
+.loadImg p {
+  display: inline-block;
+  padding: 5px 10px;
+  color: #fff; }
+
+.loadImg p img {
+  vertical-align: top; }
+
+.alert {
+  text-align: center;
+  top: 50%;
+  left: 10%;
+  margin-top: -4rem;
+  z-index: 201;
+  width: 80%;
+  border-radius: .5rem;
+  color: #fff;
+  font-size: 1.6rem; }
+
+.alert {
+  position: fixed;
+  background: rgba(60, 60, 60, 0.6);
+  padding: 1rem; }
+
+/*# sourceMappingURL=common.css.map */
